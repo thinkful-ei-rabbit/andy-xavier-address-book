@@ -80,7 +80,7 @@ app.delete(`/address/:userId`, (req, res) => {
 
   addresses.splice(index, 1);
 
-  res.send('Deleted');
+  res.send('testing');
 })
 
 app.use(function errorHandler(error, req, res, next) {
